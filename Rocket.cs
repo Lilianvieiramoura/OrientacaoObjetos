@@ -1,10 +1,13 @@
 class Rocket
 {
-  string _name;
+  string Name { get; set; }
+  int Fuel { get; set; } = 0;
+  decimal Price { get; set; }
 
-  public Rocket(string name)
+  public Rocket(string name, decimal price)
   {
-    _name = name;
+    Name = name;
+    Price = price;
   }
 }
 
