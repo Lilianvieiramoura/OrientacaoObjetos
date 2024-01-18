@@ -1,10 +1,10 @@
 class Rocket
 {
-  public string Name { get; set; }
+  string name;
 
   public Rocket(string name)
   {
-    Name = name;
+    this.name = name;
   }
 }
 
